@@ -133,3 +133,8 @@ font-family: sans-serif;
     padding: 10px 40px;
    margin: 10px;
 }
+@media (max-width:600px) {
+    .vids{
+        height: 600px;
+    }    
+}
