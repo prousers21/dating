@@ -1,0 +1,135 @@
+@font-face {
+        font-family: 'myfont';
+        src: url(Osake.otf);
+    }
+    body{
+        background:linear-gradient(#e66465, #9198e5)100%;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+}
+    .start-wall{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: url(main.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    
+    }
+    .start-wall button{
+    background: rgb(0, 0, 0,.5);
+    border: 1px solid #fff;
+    color:#fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px 40px;
+    top: 50%;
+    right: 34%;
+}
+.start-wall h1{
+    font-family: myfont;
+    color:red;
+    font-size: 40px;
+    text-transform: lowercase;
+}
+.mainchar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+.char{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    max-width:800px;
+}
+.char img{
+    width: 100px;
+    margin: 5px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+}
+
+#tilted{
+    font-size: 50px;
+    color: #fff;
+    font-family: sans-serif;
+   }
+
+   .main-vid{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   }
+   .vids{
+    display: flex;
+    height: 650px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   }
+   .btn{ 
+    display: flex;
+   position: absolute;
+   justify-content: space-evenly;
+   bottom: 0;
+}
+.btn button{
+      appearance: none;
+      background-color: rgb(0, 0, 0,.5);
+      color: #fff;
+    padding:4px 6px ;
+    margin: 5px;
+border:1px solid #fff;
+font-family: sans-serif;
+}
+.btn button:hover{
+    background:linear-gradient(#e66465, #9198e5)100%;
+}
+.btn button:focus{
+    background:linear-gradient(#e66465, #9198e5)100%;
+}
+.days{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-wrap: wrap;
+
+}
+.days span{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.days div{
+    display: flex;
+    background: rgb(0, 0, 0,.5);
+    border: 1px solid #fff;
+    color:#fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px 40px;
+   margin: 10px;
+}
