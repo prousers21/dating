@@ -15,7 +15,7 @@ let num4=0
         .then(res => res.json())
         .then(data => {
 console.log(data.children[0].children[0].children[1].name)
-for (let I1= 0; I1 < data.children.length; I1++) {
+for (let I1= 0; I1 < 15; I1++) {
     let chars = document.createElement('div')
     chars.innerHTML=`
     <img id='${I1}' src="img/${data.children[I1].name}.png" alt=""  onclick="getnum(this.id)">
